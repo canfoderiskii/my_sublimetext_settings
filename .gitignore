@@ -1,0 +1,10 @@
+Package Control.cache/
+SublimeLinter/
+FileHistory*
+*.bak
+oscrypto-ca-bundle.crt
+*.tmTheme
+encoding_cache.json
+*.merged-ca-bundle
+*.user-ca-bundle
+*.last-run

@@ -1,0 +1,12 @@
+{
+    // Default tabs size in documentation block (last value is repeated if needed).
+    // CANNOT BE EMPTY.
+    //
+    // example with value [ 13, 6, 8, 8, 8, 8 ]
+    //    /**
+    //     * @param[in]  a     { parameter_description }
+    //     * 123456789012      12345678...and continue because there is no more tab
+    //     *             123456
+    //     */
+    "preferred_tabs_sizes": [ 12, 2, 8, 8, 8, 8 ]
+}

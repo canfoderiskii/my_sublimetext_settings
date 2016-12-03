@@ -1,0 +1,55 @@
+[
+	{ "keys": ["alt+/"], "command": "auto_complete" },
+	{ "keys": ["alt+/"], "command": "replace_completion_with_auto_complete", "context":
+		[
+			{ "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+			{ "key": "auto_complete_visible", "operator": "equal", "operand": false },
+			{ "key": "setting.tab_completion", "operator": "equal", "operand": true }
+		]
+	},
+
+    { "keys": ["ctrl+alt+o"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+    { "keys": ["alt+left"], "command": "jump_back" },
+    { "keys": ["alt+right"], "command": "jump_forward" },
+
+    //filebrowser
+    { 
+      "keys": ["f8"], 
+      "command": "dired", 
+      "args": { "immediate": true } 
+    },
+    
+    //insertdate, overriding defaults
+    { 
+        "keys": ["ctrl+f5", "ctrl+d"],
+        "command": "insert_date",
+        "args": {"format": "%Y%m%d"} 
+    },
+
+    // { "keys": ["alt+up"], "command": "select_lines", "args": {"forward": false} },
+    // { "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} },
+
+    //insert nums
+    { "keys": ["ctrl+alt+n"], "command": "prompt_insert_nums" },
+
+    //ASCII decorator
+    {"keys": ["alt+shift+k"], "command": "figlet_favorites"},
+
+    // SystemVerilog
+    // {
+    //     "keys": ["ctrl+f12"], "command": "verilog_goto_driver",
+    //     "context":
+    //     [
+    //         { "key": "num_selections", "operator": "equal", "operand": 1 },
+    //         { "key": "selector", "operator": "equal", "operand": "source.systemverilog"}
+    //     ]
+    // },
+    // {
+    //     "keys": ["shift+f12"], "command": "verilog_goto_declaration",
+    //     "context":
+    //     [
+    //         { "key": "num_selections", "operator": "equal", "operand": 1 },
+    //         { "key": "selector", "operator": "equal", "operand": "source.systemverilog"}
+    //     ]
+    // }
+]
