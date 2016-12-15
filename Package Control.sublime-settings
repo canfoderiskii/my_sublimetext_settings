@@ -39,6 +39,7 @@
 		"DictionaryAutoComplete",
 		"Dotfiles Syntax Highlighting",
 		"DoxyDoxygen",
+		"EasyClangComplete",
 		"EditorConfig",
 		"EditorConfigSnippets",
 		"Expression",
@@ -131,7 +132,6 @@
 		"WordHighlight",
 		"x86 and x86_64 Assembly",
 		"xml2json",
-		"YAML Nav",
 		"Zeal"
 	]
 }
