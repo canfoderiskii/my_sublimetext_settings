@@ -17,10 +17,12 @@
 	[
 		"ClangAutoComplete",
 		"DictionaryAutoComplete",
+		"FileSystem Autocompletion",
 		"Makefile",
 		"Markdown",
 		"Python",
 		"RestructuredText",
+		"SublimeLinter-contrib-clang",
 		"Vintage"
 	],
 	"material_theme_accent_scrollbars": true,
