@@ -20,6 +20,7 @@
 		"FileSystem Autocompletion",
 		"Makefile",
 		"Markdown",
+		"MarkdownLivePreview",
 		"Python",
 		"RestructuredText",
 		"SublimeLinter-contrib-clang",
