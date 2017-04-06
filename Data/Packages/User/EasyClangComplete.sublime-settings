@@ -4,7 +4,7 @@
 
   // use libclang. If set to false will use clang_binary and parse the output of
   // `clang_binary -Xclang -code-complete-at...` instead.
-  "use_libclang" : false,
+  "use_libclang" : true,
 
   // make plugin verbose
   "verbose" : false,
