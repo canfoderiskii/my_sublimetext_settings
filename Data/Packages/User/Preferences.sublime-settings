@@ -15,15 +15,11 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"ClangAutoComplete",
-		"DictionaryAutoComplete",
 		"FileSystem Autocompletion",
 		"Makefile",
 		"Markdown",
-		"MarkdownLivePreview",
 		"Python",
 		"RestructuredText",
-		"SublimeLinter-contrib-clang",
 		"Vintage"
 	],
 	"material_theme_accent_scrollbars": true,
