@@ -1,23 +1,8 @@
 {
-  // show compile errors on save
-  "errors_on_save": true,
-
-  // use libclang. If set to false will use clang_binary and parse the output of
-  // `clang_binary -Xclang -code-complete-at...` instead.
   "use_libclang" : false,
-
-  // make plugin verbose
   "verbose" : false,
-
-  // pick the clang binary used by the plugin. This is used to determine the
-  // version of the plugin and pick correct libclang bindings.
-  "clang_binary" : "clang",
-
   "autocomplete_all" : true,
   "hide_default_completions": true,
-
-  // Plugin uses smart caching to not load the data more times than needed.
-  // Remove cache data older than specified time.
-  // Format: <hours>:<minutes>:<seconds>: "HH:MM:SS".
   "max_cache_age": "00:20:00",
+  "show_type_info": false,
 }
