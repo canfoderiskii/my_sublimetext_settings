@@ -8,5 +8,35 @@
     //     * 123456789012      12345678...and continue because there is no more tab
     //     *             123456
     //     */
-    "preferred_tabs_sizes": [ 7, 1, 8, 8, 8, 8 ]
+    "preferred_tabs_sizes": [ 7, 1, 8, 8, 8, 8 ],
+    // Minimum spaces between columns.
+    //
+    // .. warning::
+    //
+    //     The value CANNOT be an empty list.
+    //
+    // Rules:
+    //     - First number  is for first column
+    //     - Second number is for second column
+    //     - ...
+    //     - Last number is applied to all next columns
+    //
+    // .. code-block:: none
+    //     :caption: Example with the value '[1, 2]'
+    //
+    //                  +-- At least 1 space here (but according ``preferred_tabs_sizes`` it's more)
+    //     /**          V    V--- At least 2 spaces here
+    //      * @param[in]  foo       Lorem ipsum dolor sit amet.
+    //      * @param[out] long_bar  Nullam fringilla feugiat pretium. Quisque
+    //      */
+    "min_spaces_between_columns": [ 1, 1 ],
+    // Way that tabs size are computed.
+    //
+    // Possibles values:
+    //     - "comment" to align tabs in the whole comment
+    //     - "section" to align tabs in each group of command separated with a blank line separatly (new from 0.61.0)
+    //
+    // See `How to set max space <https://github.com/20Tauri/DoxyDoxygen/issues/87>`_
+    "group_tabs_sizes_by": "section",
+
 }
