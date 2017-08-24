@@ -15,11 +15,12 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"FileSystem Autocompletion",
+		"CMake",
 		"Makefile",
 		"Markdown",
 		"Python",
 		"RestructuredText",
+		"SublimeLinter-rst",
 		"Vintage"
 	],
 	"material_theme_accent_scrollbars": true,
