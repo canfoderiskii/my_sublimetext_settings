@@ -8,8 +8,9 @@
 		}
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/brogrammer (SL).tmTheme",
+	"color_scheme": "Packages/ShellScriptImproved/color_schemes/dark.tmTheme",
 	"default_line_ending": "unix",
+	"draw_white_space": "all",
 	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -21,16 +22,6 @@
 		"SublimeLinter-rst",
 		"Vintage"
 	],
-	"material_theme_accent_scrollbars": true,
-	"material_theme_accent_yellow": true,
-	"material_theme_compact_panel": true,
-	"material_theme_compact_sidebar": true,
-	"material_theme_contrast_mode": true,
-	"material_theme_panel_separator": true,
-	"material_theme_small_statusbar": true,
-	"material_theme_small_tab": true,
-	"material_theme_tabs_autowidth": true,
-	"material_theme_tabs_separator": true,
 	"rulers":
 	[
 		80,
@@ -41,6 +32,5 @@
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"update_check": false,
-	"word_wrap": false,
-	"draw_white_space": "all",
+	"word_wrap": false
 }
