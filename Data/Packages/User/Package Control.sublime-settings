@@ -102,6 +102,7 @@
 		"SortBy",
 		"Sourcetrail",
 		"SublimeAStyleFormatter",
+		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-cmakelint",
 		"SublimeLinter-contrib-rustc",
