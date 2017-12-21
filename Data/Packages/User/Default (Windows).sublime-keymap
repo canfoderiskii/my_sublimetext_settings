@@ -11,6 +11,7 @@
     { "keys": ["ctrl+alt+o"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
     { "keys": ["alt+left"], "command": "jump_back" },
     { "keys": ["alt+right"], "command": "jump_forward" },
+    { "keys": ["ctrl+alt+shift+p"], "command": "show_scope_name" },
 
     //filebrowser
     { 
