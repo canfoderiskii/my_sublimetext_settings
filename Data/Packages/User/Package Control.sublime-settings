@@ -106,7 +106,6 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-cmakelint",
 		"SublimeLinter-contrib-rustc",
-		"SublimeLinter-pep8",
 		"SublimeLinter-pydocstyle",
 		"SublimeLinter-pyflakes",
 		"SublimeLinter-rst",
